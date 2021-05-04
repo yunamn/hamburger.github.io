@@ -11,18 +11,51 @@ jQuery(function(){
  
 // 落ちてくるアイコン
 
-$(".animate__animated").waypoint({
+$(".animate1").waypoint({
   handler(direction) {
     if (direction === 'down') {
       // let isAnimate=$(this).data("animate");
       
       $(this.element).addClass("animate__bounceInDown");
       $(this.element).addClass("static");
+      
+      $(this.element).addClass("animate__duration-2s");
+      
       this.destroy();
     }
   },
       
   offset: '100%',
+});
+// メニュー
+$(".animate2").waypoint({
+  handler(direction) {
+    if (direction === 'down') {
+      // let isAnimate=$(this).data("animate");
+      
+      $(this.element).addClass("animate__flipInX");
+      $(this.element).addClass("static");
+      $(this.element).addClass("animate__duration-2s");
+      
+      this.destroy();
+    }
+  },
+      
+  offset: '100%',
+});
+// フェードイン
+$(".animate3").waypoint({
+  handler(direction) {
+    if (direction === 'down') {
+      // let isAnimate=$(this).data("animate");
+      
+      $(this.element).addClass("animate__fadeIn");
+      $(this.element).addClass("static");
+      this.destroy();
+    }
+  },
+      
+  offset: '70%',
 });
 
 

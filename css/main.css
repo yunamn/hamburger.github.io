@@ -99,17 +99,17 @@ outline: none;
   text-align: center;
 }
 .page-top a {
-  /* background-color: #999; */
   color: #fff;
   text-align: center;
   text-decoration: none;
   padding: 25px 20px;
 }
 #page-top a:hover {
-  /* background-color: #666; */
   text-decoration: none;
 }
-
+body{
+overflow-x: hidden;
+}
 
 /* ページトップ */
 .pagetop{
@@ -200,6 +200,12 @@ background-color:#CD853F;
   opacity: 1;
 }
 
+ .animate__animated{
+  animation-duration:  0.4s !important;
+} 
+
+
+
 @media screen and (max-width:1024px){
 /* ヘッダーのした線を消す */
   .nav-link::before{
@@ -215,7 +221,12 @@ background-color:#CD853F;
 
 /* メディアクエリ:スマホ */
 @media screen and (max-width:768px){
-h1,h2{
+body{
+  font-family: fantasy!important;
+
+}
+
+  h1,h2{
   font-size: 1.5rem;
 }
 #submit_result{
@@ -224,7 +235,6 @@ h1,h2{
 
   .container1{
   max-width: 90%!important;
-  border: solid red;
 }
   .news{
   font-size: 0.6rem;
