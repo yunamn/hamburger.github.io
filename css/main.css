@@ -217,9 +217,8 @@ background-color:#CD853F;
 
 /* メディアクエリ:スマホ */
 @media screen and (max-width:768px){
-body{
-  font-family: fantasy!important;
-
+  body {
+    font-family: sans-serif!important ;
 }
 
   h1,h2{
