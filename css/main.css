@@ -42,14 +42,14 @@ color: #000!important;
 }
 
 .main-image{
-  background-image: url(/images/burger.jpg);
+  background-image: url(/yunas.github.io/images/burger.jpg);
   background-size: cover;
   background-position: center center ;
   width: 100%;
   height: 60vh;
 }
 .about-image{
-  background-image: url(/images/burger.jpg);
+  background-image: url(/yunas.github.io/images/burger.jpg);
   background-size: cover;
   background-position: center;
   margin: 0 auto ;
