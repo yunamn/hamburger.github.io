@@ -16,7 +16,7 @@ $(".animate1").waypoint({
     if (direction === 'down') {
       // let isAnimate=$(this).data("animate");
       
-      $(this.element).addClass("animate__bounceInDown");
+      $(this.element).addClass("animate__bounce");
       $(this.element).addClass("static");
       
       $(this.element).addClass("animate__duration-2s");
