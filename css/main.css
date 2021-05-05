@@ -204,7 +204,12 @@ background-color:#CD853F;
 
 
 @media screen and (max-width:1024px){
-/* ヘッダーのした線を消す */
+  * {
+    font-family: "ヒラギノ丸ゴ Pro"!important;
+
+}
+
+  /* ヘッダーのした線を消す */
   .nav-link::before{
   content: none;
 }
@@ -218,9 +223,10 @@ background-color:#CD853F;
 
 /* メディアクエリ:スマホ */
 @media screen and (max-width:768px){
-  /* body {
-    font-family: "Noto Sans JP",sans-serif;
-} */
+  * {
+    font-family: "ヒラギノ丸ゴ Pro"!important;
+
+}
 
   h1,h2{
   font-size: 1.5rem;
