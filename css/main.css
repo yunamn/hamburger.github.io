@@ -2,7 +2,7 @@
 
 *{
   box-sizing: border-box;
-  font-family: 'Open Sans',sans-serif!important; 
+  font-family: 'Open Sans',sans-serif; 
    letter-spacing: 2px;
 line-height: 23px;
   margin: 0;
@@ -204,9 +204,8 @@ background-color:#CD853F;
 
 
 @media screen and (max-width:1024px){
-  * {
-    font-family: "ヒラギノ丸ゴ Pro"!important;
-
+body{
+  font-family: 'Open Sans',sans-serif;
 }
 
   /* ヘッダーのした線を消す */
@@ -223,7 +222,7 @@ background-color:#CD853F;
 
 /* メディアクエリ:スマホ */
 @media screen and (max-width:768px){
-  * {
+  body {
     font-family: 'Open Sans',sans-serif;
    }
   h1,h2{
