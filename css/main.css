@@ -2,8 +2,10 @@
 
 *{
   box-sizing: border-box;
-  font-family: 'Open Sans',sans-serif; 
-   letter-spacing: 2px;
+  /* font-family: 'Open Sans',sans-serif;  */
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
+  letter-spacing: 2px;
 line-height: 23px;
   margin: 0;
   padding: 0;
@@ -11,6 +13,9 @@ line-height: 23px;
  min-width: 0;
     min-height: 0;
     /* max-width: 100%; */
+}
+h1,h2{
+  transform: scale(1,1.2)
 }
 
 /* ナビバーのした線 */
@@ -205,7 +210,9 @@ background-color:#CD853F;
 
 @media screen and (max-width:1024px){
 body{
-  font-family: 'Open Sans',sans-serif;
+  /* font-family: 'Open Sans',sans-serif; */
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
 }
 
   /* ヘッダーのした線を消す */
@@ -223,11 +230,13 @@ body{
 /* メディアクエリ:スマホ */
 @media screen and (max-width:768px){
   body {
-    font-family: 'Open Sans',sans-serif;
+    /* font-family: 'Open Sans',sans-serif; */
+    font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
    }
   h1,h2{
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
 
 }
 #submit_result{
