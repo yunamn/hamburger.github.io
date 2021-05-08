@@ -41,7 +41,7 @@ $(".animate2").waypoint({
     }
   },
       
-  offset: '100%',
+  offset: '120%',
 });
 // フェードイン
 $(".animate3").waypoint({

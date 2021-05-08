@@ -6,7 +6,7 @@
   font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 
   letter-spacing: 2px;
-line-height: 23px;
+line-height: 24px;
   margin: 0;
   padding: 0;
   font-weight: 0;
@@ -94,6 +94,10 @@ outline: none;
   display: block;
   height: 28px;
   margin-top: 23px;
+}
+/* メニュー */
+.quality-title{
+  font-size: 1.5rem;
 }
 
 .page-top{
@@ -223,6 +227,8 @@ body{
   color:#000 !important;
 }
 
+
+
 }
 
 
@@ -259,4 +265,9 @@ body{
  .address{
    font-size: 0.8rem; 
   }
+  /* メニュー */
+.quality-title{
+  font-size: 1.1rem;
+}
+
 }
