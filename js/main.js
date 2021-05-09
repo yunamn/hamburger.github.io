@@ -17,15 +17,18 @@ $(".animate1").waypoint({
       // let isAnimate=$(this).data("animate");
       
       $(this.element).addClass("animate__bounce");
+      // $(this.element).addClass("animate__bounceInUp");
       $(this.element).addClass("static");
       
-      $(this.element).addClass("animate__duration-2s");
+      // $(this.element).addClass("animate__duration-2s");
       
+
+
       this.destroy();
     }
   },
       
-  offset: '100%',
+  offset: '120%',
 });
 // メニュー
 $(".animate2").waypoint({

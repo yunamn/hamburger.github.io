@@ -23,7 +23,7 @@ h1,h2{
 .navbar-brand{
 color: #fff!important;
 }
-.navbar-brand:hover{
+.navbar-brand:active{
 color: #000!important;
 }
 .nav-link{
