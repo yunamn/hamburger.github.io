@@ -14,6 +14,11 @@ line-height: 24px;
     min-height: 0;
     /* max-width: 100%; */
 }
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
 h1,h2{
   transform: scale(1,1.2)
 }
@@ -53,11 +58,7 @@ color: #000!important;
   width: 100%;
   height: 60vh;
 }
-body{
-  overflow-x: hidden;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-}
+
 .about-image{
   background-image: url(/naZ-burger.github.io/images/burger2.jpg);
   background-size: cover;
@@ -83,15 +84,17 @@ button:focus{
 outline: none;
 }
 .real-text{
-  border: solid #CD853F 2px!important;
+  border: solid #ffc107 2px!important;
 }
 .real-text:focus{
-  border: solid #CD853F 1px!important;
-  outline: solid #CD853F 1px!important;
+  border: solid #ffc107 1px!important;
+  outline: solid #ffc107 1px!important;
+  box-shadow: none!important;
 }
 .real-text:active{
   border: solid #CD853F 1px!important;
   outline: solid #CD853F 1px!important;
+  box-shadow: none!important;
 }
 button{
   border: none;
@@ -133,10 +136,6 @@ outline: none;
 #page-top a:hover {
   text-decoration: none;
 }
-body{
-overflow-x: hidden;
-}
-
 /* ページトップ */
 .pagetop{
   display: none;
