@@ -205,8 +205,6 @@ overflow-x: hidden;
   width: auto;
   padding-right: 92px;
   /* height: 79px; */
-  padding-right: 10px;
-  border: solid;
 }
 .read-more{
   box-shadow:7px 8px 1px 0 #CD853F;
@@ -235,7 +233,9 @@ background-color:#CD853F;
 body{
   /* font-family: 'Open Sans',sans-serif; */
   font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-
+  padding-right: 0!important;
+  padding-left: 0!important;
+   
 }
 
   /* ヘッダーのした線を消す */
@@ -258,6 +258,7 @@ body{
     /* font-family: 'Open Sans',sans-serif; */
     font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 padding-right: 0!important;
+padding-left: 0!important;
    }
   h1,h2{
   font-size: 1.5rem;
