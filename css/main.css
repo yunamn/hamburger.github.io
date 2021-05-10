@@ -82,6 +82,17 @@ button:focus{
   border: none;
 outline: none;
 }
+.real-text{
+  border: solid #CD853F 2px!important;
+}
+.real-text:focus{
+  border: solid #CD853F 1px!important;
+  outline: solid #CD853F 1px!important;
+}
+.real-text:active{
+  border: solid #CD853F 1px!important;
+  outline: solid #CD853F 1px!important;
+}
 button{
   border: none;
 outline: none;
@@ -192,7 +203,7 @@ overflow-x: hidden;
 .main-title{
   display: none;
   width: auto;
-  padding-right: 12px;
+  padding-right: 22px;
   /* height: 79px; */
   padding-right: 10px;
 }
