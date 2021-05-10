@@ -203,7 +203,7 @@ overflow-x: hidden;
 .main-title{
   display: none;
   width: auto;
-  padding-right: 22px;
+  padding-right: 92px;
   /* height: 79px; */
   padding-right: 10px;
 }
@@ -282,6 +282,10 @@ padding-right: 0!important;
  }
  .address{
    font-size: 0.8rem; 
+  }
+/* ふせん */
+  .main-title{
+padding-right: 20px;
   }
   /* メニュー */
 .quality-title{
