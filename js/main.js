@@ -11,25 +11,6 @@ jQuery(function(){
  
 // 落ちてくるアイコン
 
-$(".animate1").waypoint({
-  handler(direction) {
-    if (direction === 'down') {
-      // let isAnimate=$(this).data("animate");
-      
-      $(this.element).addClass("animate__bounce");
-      // $(this.element).addClass("animate__bounceInUp");
-      $(this.element).addClass("static");
-      
-      // $(this.element).addClass("animate__duration-2s");
-      
-
-
-      this.destroy();
-    }
-  },
-      
-  offset: '120%',
-});
 // メニュー
 $(".animate2").waypoint({
   handler(direction) {
@@ -44,7 +25,7 @@ $(".animate2").waypoint({
     }
   },
       
-  offset: '120%',
+  offset: '105%',
 });
 // フェードイン
 $(".animate3").waypoint({
@@ -54,6 +35,23 @@ $(".animate3").waypoint({
       
       $(this.element).addClass("animate__fadeIn");
       $(this.element).addClass("static");
+      this.destroy();
+    }
+  },
+      
+  offset: '130%',
+});
+$(".animate1").waypoint({
+  handler(direction) {
+    if (direction === 'down') {
+      
+      $(this.element).addClass("animate__fadeInUp");
+      $(this.element).addClass("static");
+      
+      // $(this.element).addClass("animate__duration-2s");
+      
+
+
       this.destroy();
     }
   },
