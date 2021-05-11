@@ -205,6 +205,12 @@ outline: none;
   padding-right: 92px;
   /* height: 79px; */
 }
+.animate1,.animate3{
+  animation-duration: 2s!important;
+}
+.animate2{
+  animation-duration: 4s!important;
+}
 .read-more{
   box-shadow:7px 8px 1px 0 #CD853F;
   /* transition: 0.2s; */

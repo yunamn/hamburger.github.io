@@ -21,11 +21,11 @@ $(".animate2").waypoint({
       $(this.element).addClass("static");
       // $(this.element).addClass("animate__duration-2s");
       
-      this.destroy();
+      // this.destroy();
     }
   },
       
-  offset: '100%',
+  offset: '75%',
 });
 $(".animate3").waypoint({
   handler(direction) {
@@ -34,11 +34,11 @@ $(".animate3").waypoint({
       
       $(this.element).addClass("animate__fadeIn");
       $(this.element).addClass("static");
-      this.destroy();
+      // this.destroy();
     }
   },
       
-  offset: '90%',
+  offset: '75%',
 });
 // フェードイン
 
@@ -53,11 +53,11 @@ $(".animate1").waypoint({
       
 
 
-      this.destroy();
+      // this.destroy();
     }
   },
       
-  offset: '100%',
+  offset: '75%',
 });
 
 
