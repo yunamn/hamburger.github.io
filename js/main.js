@@ -19,15 +19,14 @@ $(".animate2").waypoint({
       
       $(this.element).addClass("animate__flipInX");
       $(this.element).addClass("static");
-      $(this.element).addClass("animate__duration-2s");
+      // $(this.element).addClass("animate__duration-2s");
       
       this.destroy();
     }
   },
       
-  offset: '105%',
+  offset: '100%',
 });
-// フェードイン
 $(".animate3").waypoint({
   handler(direction) {
     if (direction === 'down') {
@@ -39,8 +38,10 @@ $(".animate3").waypoint({
     }
   },
       
-  offset: '130%',
+  offset: '90%',
 });
+// フェードイン
+
 $(".animate1").waypoint({
   handler(direction) {
     if (direction === 'down') {
@@ -56,7 +57,7 @@ $(".animate1").waypoint({
     }
   },
       
-  offset: '70%',
+  offset: '100%',
 });
 
 
